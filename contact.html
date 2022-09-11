@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3>Contact</h3>
+    <ul>
+      <li>Email: tapiocalist@gmail.com</li>
+      <li>Phone: +8619921112999</li>
+    </ul>
+
+    <form action="">
+      <input type="button" value="你是人类吗？" /> <br />
+      <label for="">点上方按钮证明你是人类</label> <br />
+      <br />
+      <input type="image" src="k.png" alt="" height="100" /> <br />
+
+      <label for="">你的名字</label>
+      <input type="text" />
+      <input type="color" /> <br />
+
+      <label for="">性别</label>
+      <input type="radio" />
+      <label for="">男</label>
+      <input type="radio" />
+      <label for="">女</label> <br />
+
+      <label for="">你的邮箱：</label>
+      <input type="email" /> <br />
+
+      <label for="">你想要加入订阅列表吗？</label>
+      <input type="checkbox" /> <br />
+
+      <label for="">密码：</label>
+      <input type="password" /> <br />
+
+      <label for="">生日：</label>
+      <input type="date" name="" id="" /> <br />
+
+      <label for="">年龄：</label>
+      <input type="number" name="" id="" /> <br />
+
+      <label for="">身份证：</label>
+      <input type="file" name="" id="" /> <br />
+
+      <label for="">你愿意推荐我们给你的朋友吗？</label>
+      <input type="range" /> <br />
+
+      <label for="">留言</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+
+      <input type="submit" value="提交" /> <br />
+      <input type="reset" />
+    </form>
+    <hr />
+    
+    <form action="mailto:katrinarrlyn@gmail.com" method="post" enctype="text/plain">
+      <label for="">邮箱</label>
+      <input type="email" name="email" id="">
+      <input type="submit" value="提交">
+    </form>
+    <!-- enctype 转码，发邮件时不会出现 email=katrinarrlyn%40gmail.com 中的 40% -->
+    <!--在 VS Code 预览不能做提交动作，要在浏览器测试-->
+  </body>
+</html>
